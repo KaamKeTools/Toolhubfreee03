@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ToolHubFreee – Your Free Online Tools in One Place. Productivity, Finance, Generators, Calculators, and more.">
+    <title>ToolHubFreee | Free Online Tools in One Place</title>
+    <style>
+        /* Base Styles */
+        :root {
+            --primary-color: #0056b3;
+            --secondary-color: #f8f9fa;
+            --text-color: #333;
+            --light-text: #666;
+            --bg-color: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: var(--secondary-color);
+        }
+        h1, h2, h3 {
+            color: #222;
+        }
+        a {
+            text-decoration: none;
+        }
+        
+        /* Layout & Container */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--bg-color);
+            text-align: center;
+            padding: 4rem 2rem;
+            border-bottom: 2px solid #eaeaea;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .hero p.subtitle {
+            font-size: 1.2rem;
+            color: var(--light-text);
+            margin-bottom: 20px;
+        }
+        .hero p.description {
+            max-width: 800px;
+            margin: 0 auto 30px auto;
+            font-size: 1.1rem;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: #fff;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #004494;
+        }
+
+        /* Grid Layout for Categories */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 2rem;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--bg-color);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid #eaeaea;
+        }
+        .card h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .card ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .card ul li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #ddd;
+        }
+        .card ul li:last-child {
+            border-bottom: none;
+        }
+
+        /* Features Section */
+        .features {
+            background: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 3rem 2rem;
+            margin-top: 2rem;
+        }
+        .features h2 {
+            color: #fff;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 2rem;
+        }
+        .feature-box {
+            padding: 1rem;
+        }
+        .feature-box h3 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        .cta-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: var(--bg-color);
+        }
+        footer {
+            background: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+        }
+        .footer-categories {
+            margin-bottom: 1rem;
+        }
+        
+        /* Responsive */
+        @media(max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>ToolHubFreee</h1>
+            <p class="subtitle">🚀 One Website, Many Useful Tools</p>
+            <p class="description">Aaj ke digital time mein hume daily life, studies, business aur personal planning ke liye alag-alag tools ki zarurat padti hai. ToolHubFreee ek simple aur useful online tools platform hai jahan aapko kai categories ke free tools ek hi jagah milte hain.</p>
+            <p class="description">Chahe aapko apna daily schedule manage karna ho, expenses calculate karne ho, QR code banana ho, password generate karna ho ya currency convert karni ho — ToolHubFreee aapke kaam ko easy aur fast banane ke liye designed hai.</p>
+            <a href="YOUR_WEBSITE_URL_HERE" class="btn">👉 Explore ToolHubFreee – Free Tools</a>
+        </div>
+    </header>
+
+    <!-- Main Content: Tool Categories -->
+    <section class="container">
+        <div class="tools-grid">
+            
+            <!-- Productivity -->
+            <div class="card">
+                <h2>📅 Productivity Tools</h2>
+                <p>Apne daily tasks aur goals ko better manage karne ke liye ToolHubFreee mein useful productivity tools available hain:</p>
+                <ul>
+                    <li><strong>Calendar</strong> – Important dates aur events organize karein.</li>
+                    <li><strong>To-Do List</strong> – Apne daily tasks ko manage karein.</li>
+                    <li><strong>Habit Tracker</strong> – Apni daily habits ko track karein.</li>
+                    <li><strong>Goal Tracker</strong> – Apne goals aur progress par nazar rakhein.</li>
+                    <li><strong>Daily Planner</strong> – Apne din ko properly plan karein.</li>
+                </ul>
+                <p><small>Students, employees, business owners aur daily routine organize karne wale users ke liye useful.</small></p>
+            </div>
+
+            <!-- Finance -->
+            <div class="card">
+                <h2>💰 Finance Tools</h2>
+                <p>Personal finance aur business-related calculations ko simple banane ke liye finance tools ka use karein.</p>
+                <ul>
+                    <li><strong>Expense Tracker</strong> – Apne expenses ko track karein.</li>
+                    <li><strong>Budget Planner</strong> – Apne budget ko plan karein.</li>
+                    <li><strong>Invoice Generator</strong> – Professional invoices generate karne mein help karein.</li>
+                </ul>
+                <p><small>In tools ki madad se aap apne financial tasks ko ek organized way mein handle kar sakte hain.</small></p>
+            </div>
+
+            <!-- Generators -->
+            <div class="card">
+                <h2>⚡ Generators</h2>
+                <p>Kabhi strong password chahiye? QR code banana hai? Ya business ke liye naam ka idea chahiye?</p>
+                <ul>
+                    <li>Password Generator</li>
+                    <li>QR Code Generator</li>
+                    <li>Username Generator</li>
+                    <li>Business Name Generator</li>
+                    <li>Nickname Generator</li>
+                </ul>
+                <p><small>Ye tools quick results ke liye banaye gaye hain, taaki aapko har chhoti requirement ke liye alag website search na karni pade.</small></p>
+            </div>
+
+            <!-- Calculators -->
+            <div class="card">
+                <h2>🧮 Calculators</h2>
+                <p>Simple calculations ko easy banane ke liye ToolHubFreee par different calculators available hain.</p>
+                <ul>
+                    <li><strong>BMI Calculator</strong> – Apni height aur weight ke basis par BMI calculate karein.</li>
+                    <li><strong>Age Calculator</strong> – Apni date of birth se age calculate karein.</li>
+                </ul>
+            </div>
+
+            <!-- Converters -->
+            <div class="card">
+                <h2>🔄 Converters</h2>
+                <p>Different types ke conversion ke liye ToolHubFreee ke converters ka use karein:</p>
+                <ul>
+                    <li><strong>Currency Converter</strong> – Different currencies ke conversion ke liye.</li>
+                    <li><strong>Unit Converter</strong> – Different units ko convert karne ke liye.</li>
+                    <li><strong>Time Zone Converter</strong> – Different countries ke time zones compare karein.</li>
+                </ul>
+            </div>
+
+            <!-- Time -->
+            <div class="card">
+                <h2>🌍 World Clock</h2>
+                <p>Different countries aur cities ka current time check karna hai?</p>
+                <p>World Clock tool ki madad se aap different locations ke time ko easily check kar sakte hain. Ye tool international clients, travelers, students aur remote workers ke liye particularly useful ho sakta hai.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="features">
+        <div class="container">
+            <h2>✨ Why Choose ToolHubFreee?</h2>
+            <p>ToolHubFreee ka main goal simple hai — useful online tools ko ek convenient platform par provide karna.</p>
+            
+            <div class="features-grid">
+                <div class="feature-box">
+                    <h3>Simple</h3>
+                    <p>Tools ko easy-to-understand interface ke saath use karne ki koshish ki gayi hai.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Fast</h3>
+                    <p>Apni requirement ke according tool select karein aur kaam complete karein.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Multiple Categories</h3>
+                    <p>Productivity se lekar Finance, Generators, Calculators, Converters aur Time tools tak.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Free Online Tools</h3>
+                    <p>Online access karke apne daily tasks ko easier banane ki koshish karein.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>🚀 Start Using ToolHubFreee Today</h2>
+            <p>Aapko har chhote online task ke liye alag-alag websites search karne ki zarurat nahi hai.<br>ToolHubFreee par visit karein aur apni requirement ke according tool select karein.</p>
+            <p><strong>All Your Useful Tools. One Simple Place.</strong></p>
+            <br>
+            <a href="YOUR_WEBSITE_URL_HERE" class="btn">👉 Visit ToolHubFreee Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-categories">
+                <strong>ToolHubFreee Categories</strong><br>
+                <em>Productivity:</em> Calendar, To-Do List, Habit Tracker, Goal Tracker, Daily Planner | 
+                <em>Finance:</em> Expense Tracker, Budget Planner, Invoice Generator | 
+                <em>Generators:</em> Password, QR Code, Username, Business Name, Nickname | 
+                <em>Calculators:</em> BMI, Age | 
+                <em>Converters:</em> Currency, Unit, Time Zone | 
+                <em>Time:</em> World Clock
+            </div>
+            <p>ToolHubFreee — Simple tools for everyday tasks.</p>
+            <p>&copy; 2026 ToolHubFreee. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
